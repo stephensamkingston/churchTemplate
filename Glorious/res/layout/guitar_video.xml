@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.handmark.pulltorefresh.library.PullToRefreshGridView
+        android:id="@+id/photoGrid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alwaysDrawnWithCache="true"
+        android:clipChildren="true"
+        android:columnWidth="@dimen/photo_thumbnail_size"
+        android:fadeScrollbars="false"
+        android:fastScrollEnabled="true"
+        android:horizontalSpacing="@dimen/photo_thumbnail_spacing"
+        android:numColumns="auto_fit"
+        android:padding="6dp"
+        android:scrollbars="none"
+        android:scrollingCache="true"
+        android:smoothScrollbar="true"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/photo_thumbnail_spacing" />
+
+    <TextView
+        android:id="@+id/tvNoAlbums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No photos to display!"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/expanded_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/app_name"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#900</color>
+    <color name="green">#090</color>
+    <color name="blue">#009</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="theme">#4c769c</color>
+    <color name="grid_state_pressed">#BBFA5858</color>
+    <color name="grid_state_focused">#77FA5858</color>
+    <color name="transparent">#00000000</color>
+    <color name="grey">#6E6E6E</color>
+    <color name="light_grey">#F2F2F2</color>
+    <color name="light_red">#f5eded</color>
+    <color name="sliding_menu_bg">#BF666666</color>
+    <color name="grey_light">#FA5858</color>
+    <color name="theme_light">#FA5858</color>
+    <color name="theme_dark">#e30d33</color>
+    <color name="facebook">#3b5999</color>
+    <color name="twitter">#01bbf6</color>
+    <color name="share">#5b9139</color>
+    <color name="list_red_dark">#D95b0a19</color>
+    <color name="list_red_light">#D9941027</color>
+    <color name="list_grey_dark">#dcdcdc</color>
+    <color name="list_grey_light">#ebebeb</color>
+    <color name="list_selector">#B3FA5858</color>
+    <color name="list_pressed">#424242</color>
+    <color name="facebook_pressed">#4a6eba</color>
+    <color name="twitter_pressed">#66ccff</color>
+    <color name="share_pressed">#6cac44</color>
+    <color name="list_collections_grey_dark">#6E6E6E</color>
+    <color name="list_collections_grey_light">#A4A4A4</color>
+
+</resources>

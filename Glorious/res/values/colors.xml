@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="red">#900</color>
+    <color name="green">#090</color>
+    <color name="blue">#009</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="theme">#4c769c</color>
+    <color name="grid_state_pressed">#BB7dbcd3</color>
+    <color name="grid_state_focused">#777dbcd3</color>
+    <color name="transparent">#00000000</color>
+    <color name="grey">#6E6E6E</color>
+    <color name="light_grey">#F2F2F2</color>
+    <color name="light_red">#f5eded</color>
+    <color name="light_red_row">#c6959a</color>
+    <color name="dark_red_row">#c68b91</color>
+    <color name="theme_red">#c5161c</color>
+    <color name="ab_bg">#222222</color>
+
+</resources>

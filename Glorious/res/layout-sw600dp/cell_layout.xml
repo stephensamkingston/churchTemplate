@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/trackNumber"
+        android:layout_width="40dp"
+        android:layout_height="90dp"
+        android:contentDescription="@string/app_name"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="1"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="2dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@+id/trackNumber"
+        android:background="#c5161c" />
+
+    <RelativeLayout
+        android:id="@+id/titleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="6dp"
+        android:layout_toLeftOf="@+id/play"
+        android:layout_toRightOf="@+id/divider"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/songTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Akon - Sexy Chick"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/songDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/songTitle"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Akon Feat davin guetta"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="7dp"
+        android:background="@drawable/pause_btn_selector"
+        android:contentDescription="@string/app_name"
+        android:gravity="center"
+        android:src="@drawable/cover_akon"
+        android:textSize="16sp" />
+
+</RelativeLayout>

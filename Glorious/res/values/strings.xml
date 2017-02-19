@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Glorious</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="fb_id">607011716050470</string>
+    <string name="check_connectivity">No connectivity! Please make sure you have connected and try again.</string>
+    <string name ="Others">The GLORIOUS Festival of Harmony has proved to be a mellifluous melting pot of creative expression as singers from around the country gather to explore and enlarge their collective choral experience.
+The GLORIOUS Festival of Harmony stage is acknowledged as an all-inclusive platform where veteran musicians share foot-tapping space with just-born bands. The non-competitive ambience further commemorates the fact that there is always room for one more singer and reason enough for one more song.
+GLORIOUS is a 23-year-old trend-setting gospel youth choir that has been spear-heading the movement for the restoration and revival of harmony singing in Bangalore. Having presented over 1000 concerts across the country, the mission of GLORIOUS has been to use the medium of gospel music to minister to a world seeking purpose and perspective in its very existence.</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >GuitarVideos</item>
+        <item >Location</item>
+        <item >Favourites</item>
+        <item >More</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+  
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>
